@@ -1,0 +1,110 @@
+@font-face {
+    font-family: 'Nunito Sans','Yeseva One', sans-serif;
+    src: url("/fonts/Nunito_Sans/NunitoSans-Regular.ttf");
+    font-style: normal;
+}
+@font-face {
+    font-family: "Yeseva One", sans-serif;
+    src: url("/fonts/Yeseva_One/YesevaOne-Regular.ttf");
+    font-style: normal;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+.header {
+    background-color: #131313;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.content-container{
+    max-width: 1256px;
+    margin: 0 auto;
+
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav{
+    display: flex;
+}
+.button{
+    background: #E3B873;
+    box-shadow: 0 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    padding: 13px 33px;
+}
+.button-header{
+    margin-top: 24px;
+    margin-bottom: 22px;
+
+}
+.header-text{
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.logo-text{
+    color: #E3B873;
+}
+.phone-text{
+    color: #E3B873;
+    text-decoration: inherit;
+}
+.button-header-text{
+    font-style: italic;
+}
+.nav-item{
+    padding-right: 47px;
+}
+.nav-item:last-child{
+    padding-right: 0;
+}
+nav ul li a:hover{
+    color: #E3B873;
+}
+.home-section{
+    background-image: url("/img/image 4.3.jpg");
+    background-color: rgba(0,0,0,0.3);
+}
+.home-section-container{
+    padding-left: 134px;
+    padding-top:194px;
+    padding-bottom: 208px;
+}
+.home-text-title{
+    font-family: 'Yeseva One',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 19px;
+}
+.home-text{
+    font-family: "Yeseva One", serif;
+    font-size: 22px;
+    line-height: 36px;
+    margin-bottom: 41px;
+}
+.home-button{
+    margin-left: 20px;
+    background-color: rgba(0,0,0,0);
+    border: #FFFFFF solid 1px;
+}
+.section-darkness{
+    background-color: rgba(0,0,0,0.1);
+}
