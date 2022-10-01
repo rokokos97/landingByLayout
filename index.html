@@ -9,16 +9,16 @@
     <title>Landing page by layout</title>
 </head>
 <body>
-<header class="header">
+<header id="home" class="header">
     <div class="content-container">
         <div class="nav-container">
             <div class="logo">
-                <p class="header-text color-text">IC "Repair Design Project"</p>
+                <p class="header-text subtitle color-text">IC "Repair Design Project"</p>
             </div>
             <nav class="nav-header">
                 <ul class="nav">
-                    <li class="nav-item"><a class="header-text" href="#">home</a></li>
-                    <li class="nav-item"><a class="header-text" href="#">projects</a></li>
+                    <li class="nav-item"><a class="header-text" href="#home">home</a></li>
+                    <li class="nav-item"><a class="header-text" href="#complete projects">projects</a></li>
                     <li class="nav-item"><a class="header-text" href="#">measurement</a></li>
                     <li class="nav-item"><a class="header-text" href="#">team</a></li>
                     <li class="nav-item"><a class="header-text" href="#">reviews</a></li>
@@ -40,49 +40,55 @@
     <section class="home-section">
         <div class="section-darkness">
             <div class="home-section-container">
-                <p class="home-text-title title">Turnkey Repair in the<br> city of <span class="home-text-title color-text" >Rostov-on-Don</span> </p>
+                <p class="home-text-title title">Turnkey Repair in the<br> city of <span class="title home-text-title color-text" >Rostov-on-Don</span> </p>
                 <p class="home-text">Get ready-made turnkey repairs on time<br> with work time saving up to 45 days and 20% from<br> cost of materials due to the organization of work</p>
                 <button class="button home-button"><span class="button-header-text header-text">calculate the cost</span></button>
                 <button class="button home-button home-button-trans"><span class="button-header-text header-text">submit your application</span></button>
             </div>
         </div>
     </section>
-    <section class="projects-section">
-        <div class="content-container">
-            <nav class="nav-container">
-                <ul class="nav">
-                    <li><a href="#">Rostov-on-Don, Admiral</a></li>
-                    <li><a href="#">Sochi Thieves</a></li>
-                    <li><a href="#">Rostov-on-Don Patriotic</a></li>
+    <section id="complete projects" class="projects-section">
+        <div class="project-content">
+            <nav>
+                <ul class="projects-nav">
+                    <li><a class="title projects-nav-item" href="#">Rostov-on-Don, Admiral</a></li>
+                    <li><a class="title projects-nav-item" href="#">Sochi Thieves</a></li>
+                    <li><a class="title projects-nav-item" href="#">Rostov-on-Don Patriotic</a></li>
                 </ul>
             </nav>
             <div class="container">
-                <div>
-                    <div>
-                        <p class="project-text-title">Completed<br> projects</p>
-                        <p class="project-text">Only a small part of the work performed by our company is presented<br>
-                            on the site. For 14 years on in the construction<br>
-                            market we have made happy more than 1000 families</p>
+                <div class="projects-list-container">
+                    <p class="projects-list-item projects-text-title title color-text">
+                        Completed<br> projects
+                    </p>
+                    <p class="projects-list-item project-text-subtitle subtitle">
+                        Only a small part of the work performed by our company is presented<br>
+                        on the site. For 14 years on in the construction<br>
+                        market we have made happy more than 1000 families
+                    </p>
+                    <div class="projects-list-item container">
+                        <div>
+                            <div class="projects-list-column-left">
+                                <p class="projects-list-text-title title color-text">city:</p>
+                                <p class="project-text-subtitle subtitle">Rostov-on-Don<br> LCD admiral</p>
+                            </div>
+                            <div class="projects-list-column-left">
+                                <p class="projects-list-text-title title color-text">repair time:</p>
+                                <p class="project-text-subtitle subtitle ">3.5 months</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="projects-list-column-right">
+                                <p class="projects-list-text-title title color-text">apartment area:</p>
+                                <p class="project-text-subtitle subtitle">81 m<sup>2</sup></p>
+                            </div>
+                            <div class="projects-list-column-right">
+                                <p class="projects-list-text-title title color-text">repair Cost:</p>
+                                <p class="project-text-subtitle subtitle">Upon request</p>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-                        <div>
-                            <p class="project-text-title">city:</p>
-                            <p class="project-text">Rostov-on-Don LCD admiral</p>
-                        </div>
-                        <div>
-                            <p class="project-text-title">apartment area:</p>
-                            <p class="project-text">81 m<sup>2</sup></p>
-                        </div>
-                        <div>
-                            <p class="project-text-title">repair time:</p>
-                            <p class="project-text">3.5 months</p>
-                        </div>
-                        <div>
-                            <p class="project-text-title">repair Cost:</p>
-                            <p class="project-text">Upon request</p>
-                        </div>
-                    </div>
-                    <div class="container">
+                    <div class="projects-list-item container">
                         <div>
                             <img src="/img/svg/Vector%20(Stroke).svg" alt="">
                             <img src="/img/svg/Vector%20(Stroke)-1.png" alt="">
@@ -99,11 +105,23 @@
                     </div>
                 </div>
                 <div>
-                    <div>
-                        <img src="/img/image%202.1.jpg" alt="interior image">
-                    </div>
+                    <img src="/img/image%202.1.jpg" alt="interior image">
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="online-section">
+        <p class="title color-text online-text-title">online control</p>
+        <div class="online-container">
+            <img src="/img/svg/Rectangle%206.7.svg" alt="line">
+            <img src="/img/svg/Vector.svg" alt="camera">
+            <img src="/img/svg/Rectangle%206.8.svg" alt="line">
+        </div>
+        <div>
+            <img class="online-video" src="/img/image%206.jpg" alt="online control video">
+        </div>
+        <div>
+            <img class="online-video play-icon" src="/img/svg/Group%208.svg" alt="play icon">
         </div>
     </section>
 </main>
