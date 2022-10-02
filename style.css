@@ -248,16 +248,45 @@ input{
 
 }
 .repair-section{
-    margin-top: 148px;
+    margin-top: 68px;
+}
+.repair-container{
+    margin-left: 105px;
+    margin-right: 105px;
+}
+.repair-list-container{
+    background-color: #FFFFFF;
+    margin-top: -110px;
 }
 .repair-text-title{
+    margin-bottom: 15px;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     color: #181818;
 }
-
-
-
+.repair-section-button{
+    width: 228px;
+    height: 54px;
+}
+.repair-section-button-text{
+    font-size: 18px;
+    line-height: 25px;
+}
+.repair-list {
+    list-style: disc;
+    padding-left: 34px;
+}
+.repair-section-title{
+    padding-left: 34px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #363636;
+}
+.repair-list-item{
+    font-size: 13px;
+    line-height: 27px;
+    color: #959595;
+}
 
 
