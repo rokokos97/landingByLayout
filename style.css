@@ -191,12 +191,50 @@ nav ul li a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+
 }
 .play-icon{
     margin-top: -285px;
+    margin-bottom: 203px;
 }
-
-
-
+.online-text-subtitle{
+    color: #131313;
+    margin-right: 380px;
+    margin-left: 380px;
+    font-size: 18px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 27px;
+}
+.submit-label-text{
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(54, 54, 54, 0.5);
+}
+.form-container{
+    margin-right: 335px;
+    margin-left: 335px;
+    margin-top: 78px;
+}
+input{
+    border:none;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    padding-right: 85px;
+    padding-bottom: 5px;
+}
+.submit-button{
+    padding: 14px 74px;
+    margin: auto;
+}
+.form-checkbox {
+    margin-left: auto;
+    margin-right: auto;
+}
+.submit-button-text{
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+}
 
 
