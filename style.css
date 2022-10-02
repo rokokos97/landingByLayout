@@ -222,13 +222,21 @@ input{
     padding-right: 85px;
     padding-bottom: 5px;
 }
+.checkbox-text{
+    padding-left: 10px;
+    font-size: 14px;
+    line-height: 23px;
+    color: #363636;
+}
 .submit-button{
     padding: 14px 74px;
     margin: auto;
 }
 .form-checkbox {
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 29px;
 }
 .submit-button-text{
     font-size: 13px;
@@ -236,5 +244,20 @@ input{
     text-align: center;
     text-transform: uppercase;
 }
+.checkbox{
+
+}
+.repair-section{
+    margin-top: 148px;
+}
+.repair-text-title{
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #181818;
+}
+
+
+
 
 
