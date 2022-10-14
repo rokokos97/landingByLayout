@@ -384,7 +384,7 @@ input{
     text-shadow: 0 3px 10px rgba(227, 184, 115, 0.15);
 }
 .section-weRealize{
-    background-image: url("/img/backgroungImageWeRealizeSectiom.jpg");
+    background-image: url("img/backgroungImageWeRealizeSectiom.jpg");
 }
 .section-weRealize-wrapper{
     display:flex;
@@ -498,13 +498,13 @@ input{
     justify-content: center;
 }
 .section-ourClients-city div:first-child{
-    background-image: url("/img/svg/backgroundDrawCityLeftOurClientsSection.svg");
+    background-image: url("img/svg/backgroundDrawCityLeftOurClientsSection.svg");
     opacity: 0.05;
     background-position:10% 82%;
     width: 50%;
 }
 .section-ourClients-city div:last-child{
-    background-image: url("/img/svg/backgroundDrawCityRightOurClientsSection.svg");
+    background-image: url("img/svg/backgroundDrawCityRightOurClientsSection.svg");
     background-position:90% 82%;
     opacity: 0.05;
     width: 50%;
@@ -512,7 +512,7 @@ input{
 }
 .question-section{
     width: 100%;
-    background-image: url("/img/svg/backgroundDrawTownOurClientsSection.svg");
+    background-image: url("img/svg/backgroundDrawTownOurClientsSection.svg");
     background-color: rgba(0, 0, 0, 0.99);
     margin-top: -220px;
 }
@@ -596,8 +596,3 @@ input{
     margin: auto;
     padding: 28px 0;
 }
-
-
-
-
-
