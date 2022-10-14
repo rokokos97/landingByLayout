@@ -82,7 +82,7 @@ nav ul li a:hover{
 }
 /*HOME SECTION*/
 .home-section{
-    background-image: url("/img/homeSectionBackground.jpg");
+    background-image: url("img/homeSectionBackground.jpg");
 }
 .home-section-darkness-background{
     background-color: rgba(0,0,0,0.7);
@@ -190,7 +190,7 @@ nav ul li a:hover{
     margin: 30px auto 62px;
     width: 817px;
     height: 434px;
-    background-image: url(/img/onlineVideo.jpg);
+    background-image: url(img/onlineVideo.jpg);
     align-items: center;
 }
 .transparent{
@@ -277,13 +277,13 @@ input{
     background-repeat: no-repeat;
 }
 .img-left{
-    background-image:url("/img/imageLeft.jpg");
+    background-image:url("img/imageLeft.jpg");
 }
 .img-center{
-    background-image: url("/img/imageCenter.jpg");
+    background-image: url("img/imageCenter.jpg");
 }
 .img-right{
-    background-image: url("/img/imageRight.jpg");
+    background-image: url("img/imageRight.jpg");
 }
 .repair-list-container{
     width: 84%;
@@ -322,7 +322,7 @@ input{
 }
 /*REQUESTS SECTION*/
 .section-request{
-    background-image: url(/img/backgroundDrawRequestsSection.jpg);
+    background-image: url(img/backgroundDrawRequestsSection.jpg);
     background-position: 0 -30%;
     background-repeat: no-repeat;
     margin: 166px 0 0;
