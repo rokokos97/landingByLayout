@@ -5,7 +5,17 @@
     .content-container {
         max-width: 91%;
     }
-    /*HEADER*/
+    .check{
+        color: #FFFFFF;
+    }
+    .question-form input{
+        color: #FFFFFF;
+        background-color: unset;
+    }
+    .submit-label-text{
+        color: #959595;
+    }
+        /*HEADER*/
     .nav-header {
         display: none;
     }
@@ -89,47 +99,31 @@
         background-image: url("/img/projectsRoomMobile.jpg");
         background-size: 100%;
     }
-
-    .arrowLeft {
-        /*width: 20%;*/
-    }
-
-    .arrowRight {
-        /*width: 20%;*/
-    }
-
     .projects-list-wrapper {
         margin: 0;
     }
-
     .projects-list-wrapper div {
         width: 47%;
     }
-
     .projects-list-text-title {
         font-size: 1.4rem;
         line-height: 1.9rem;
     }
-
     .projects-list-text-subtitle {
         font-size: 1.1rem;
         line-height: 1.7rem;
     }
-
     .projects-list-arrow {
         display: none;
     }
-
     .projects-image-screen {
         display: none;
     }
-
     .online-section {
         background-color: #131313;
         margin-top: 0;
         margin-bottom: -10px;
     }
-
     .online-video {
         display: flex;
         margin: 50px auto 27px;
@@ -138,7 +132,6 @@
         background-image: url(/img/onlineVideo.jpg);
         background-size: 100%;
     }
-
     .online-text-subtitle {
         margin: 18px auto;
         width: 100%;
@@ -164,7 +157,7 @@
         margin: -130px auto;
         padding-bottom: 85px;
     }
-    /*repair section*/
+    /*REPAIR SECTION*/
     .repair-section{
         margin-top: 211px;
     }
@@ -223,7 +216,7 @@
     .help-save{
         display: none;
     }
-    /*we realize section*/
+    /*WE REALIZE SECTION*/
     .section-weRealize{
         width: 100%;
         background-image: unset;
@@ -347,5 +340,8 @@
     .icons img{
         width: 10%;
         margin-left: 8px;
+    }
+    .footer{
+        display: none;
     }
 }
