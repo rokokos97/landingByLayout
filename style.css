@@ -3,9 +3,6 @@
 html{
     font-size: 10px;
 }
-body{
-
-}
 *{
     margin: 0;
     padding: 0;
@@ -31,9 +28,8 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.header {
-    width: 100%;
-    background-color: #131313;
+.text-color{
+    color: #E3B873;
 }
 .content-container{
     max-width: 87.5%;
@@ -46,8 +42,17 @@ body{
 .flex{
     display: flex;
 }
-.text-color{
-    color: #E3B873;
+.space{
+    justify-content: space-between;
+}
+.image-center{
+    display: block;
+    margin: 0 auto;
+}
+/*HEADER*/
+.header {
+    width: 100%;
+    background-color: #131313;
 }
 .header-content{
     justify-content: space-between;
@@ -56,6 +61,12 @@ body{
 .nav{
     margin-left: 40px;
     display: flex;
+}
+.nav-item{
+    padding:0 27px;
+}
+nav ul li a:hover{
+    color: #E3B873;
 }
 .phone{
     text-align: right;
@@ -69,14 +80,12 @@ body{
     padding: 10px 35px;
     font-style: italic;
 }
-.nav-item{
-    padding:0 27px;
-}
-nav ul li a:hover{
-    color: #E3B873;
-}
+/*HOME SECTION*/
 .home-section{
-    background-image: url("/img/image 4.3.jpg");
+    background-image: url("/img/homeSectionBackground.jpg");
+}
+.home-section-darkness-background{
+    background-color: rgba(0,0,0,0.7);
 }
 .home-section-container{
     padding-left: 45px;
@@ -106,12 +115,7 @@ nav ul li a:hover{
     background-color: rgba(0,0,0,0);
     border: #FFFFFF solid 1px;
 }
-.section-darkness{
-    background-color: rgba(0,0,0,0.7);
-}
-.projects-list-container{
-    width: 40%;
-}
+/*PROJECTS SECTION*/
 .projects-section{
     background-color: #131313;
 }
@@ -135,13 +139,13 @@ nav ul li a:hover{
     border-bottom: #E3B873 solid 0.1rem;
     padding-bottom: 7px;
 }
-.space{
-    justify-content: space-between;
-}
 .projects-list-wrapper{
     margin-top: 50px;
     margin-bottom: 55px;
     flex-wrap: wrap;
+}
+.projects-list-container{
+    width: 40%;
 }
 .projects-list-wrapper div{
     width: 191px;
@@ -174,15 +178,12 @@ nav ul li a:hover{
     font-size: 1.3rem;
     line-height: 2.1rem;
 }
-
+/*ONLINE SECTION*/
 .online-section{
     margin-top: -323px;
 }
-
-.online-container{
-    display: flex;
-    justify-content: center;
-    /*margin-bottom: 30px;*/
+.online-container img{
+    margin: 0 auto;
 }
 .online-video{
     display: flex;
@@ -197,10 +198,6 @@ nav ul li a:hover{
     width: 100%;
     display: flex;
     background-color: rgba(0, 0, 0, 0.8);
-}
-.image-center{
-    display: block;
-    margin: 0 auto;
 }
 .play-icon{
     width: 18%;
@@ -222,7 +219,6 @@ nav ul li a:hover{
     width: 61%;
     margin: 81px auto 0;
 }
-
 input{
     background: transparent;
     border:none;
@@ -324,9 +320,9 @@ input{
     bottom:28px;
     left: 34px
 }
-/*section request*/
+/*REQUESTS SECTION*/
 .section-request{
-    background-image: url(/img/background-drow.jpg);
+    background-image: url(/img/backgroundDrawRequestsSection.jpg);
     background-position: 0 -30%;
     background-repeat: no-repeat;
     margin: 166px 0 0;
@@ -336,7 +332,6 @@ input{
     display: flex;
     justify-content: space-around;
 }
-
 .wrapper-repair{
    display: block;
     width:37%;
@@ -349,7 +344,6 @@ input{
 .wrapper-repair img:last-child{
     margin-bottom: 0;
 }
-
 .wrapper-forma{
     width: 35%;
     background-color: #131313;
@@ -386,11 +380,11 @@ input{
     padding-top: 12px;
 }
 .help-save span {
-    font-size: 18px;
+    font-size: 1.8rem;
     text-shadow: 0 3px 10px rgba(227, 184, 115, 0.15);
 }
 .section-weRealize{
-    background-image: url("/img/image 5.1.jpg");
+    background-image: url("/img/backgroungImageWeRealizeSectiom.jpg");
 }
 .section-weRealize-wrapper{
     display:flex;
@@ -415,7 +409,6 @@ input{
 }
 .weRealize-list li {
     margin-bottom: 11px;
-
 }
 .weRealize-list li a{
     font-size: 20px;
@@ -505,21 +498,21 @@ input{
     justify-content: center;
 }
 .section-ourClients-city div:first-child{
-    background-image: url("/img/svg/CityLeft.svg");
+    background-image: url("/img/svg/backgroundDrawCityLeftOurClientsSection.svg");
     opacity: 0.05;
     background-position:10% 82%;
     width: 50%;
 }
 .section-ourClients-city div:last-child{
-    background-image: url("/img/svg/CityRight.svg");
+    background-image: url("/img/svg/backgroundDrawCityRightOurClientsSection.svg");
     background-position:90% 82%;
     opacity: 0.05;
     width: 50%;
     height: 351px;
 }
-.section-question{
+.question-section{
     width: 100%;
-    background-image: url("/img/svg/town.svg");
+    background-image: url("/img/svg/backgroundDrawTownOurClientsSection.svg");
     background-color: rgba(0, 0, 0, 0.99);
     margin-top: -220px;
 }
