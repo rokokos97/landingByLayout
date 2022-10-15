@@ -14,6 +14,36 @@ html{
     list-style-type: none;
     color: #FFFFFF;
 }
+label{
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+input{
+    width: 100%;
+    background: transparent;
+    font-size: 1.4rem;
+    line-height: 2.3rem;
+    color: #FFFFFF;
+    border-bottom: rgba(255, 255, 255, 0.5) solid 1px;
+
+}
+input::placeholder{
+    color:#FFFFFF;
+}
+.check input{
+    border-bottom: none;
+}
+.online-section label{
+    color:rgba(54, 54, 54, 0.5)
+}
+.online-section input{
+    color: #181818;
+    border-color: rgba(54, 54, 54, 0.3) ;
+}
+.online-section input::placeholder{
+    color: #181818;
+}
 .title{
     font-family: 'Yeseva One', cursive;
     font-style: normal;
@@ -210,22 +240,12 @@ nav ul li a:hover{
     line-height: 37px;
     text-align: center;
 }
-.submit-label-text{
-    font-size: 13px;
-    line-height: 21px;
-    color: rgba(54, 54, 54, 0.5);
-}
 .form-container{
-    width: 61%;
+    width: 60%;
     margin: 81px auto 0;
 }
-input{
-    background: transparent;
-    border:none;
-    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
-    font-size: 1.4rem;
-    line-height: 2.3rem;
-    color: #131313;
+.form-container div{
+    width: 25%;
 }
 .submit-button{
     padding: 17px 79px;
@@ -239,9 +259,10 @@ input{
     padding-left: 10px;
     font-size: 14px;
     line-height: 23px;
-    color: #363636;
+    color: #FFFFFF;
 }
 .checkbox-input{
+    border: none;
     position: absolute;
     -webkit-appearance: none;
 }
@@ -530,9 +551,6 @@ input{
     text-align: center;
     padding-top: 30px;
 }
-.question-form input{
-    background-color: transparent;
-}
 .question-form-wrapper{
     display: flex;
     text-align: left;
@@ -542,16 +560,10 @@ input{
 .question-form-wrapper form{
     width: 45%;
 }
-.label{
-    font-size: 13px;
-    line-height: 21px;
-    color: rgba(255, 255, 255, 0.5);
-}
 .question-form-question{
     width: 60%;
     text-align: left;
     margin: auto;
-    border-bottom: #959595 solid 1px;
 }
 .question-form-data{
     margin:50px auto;

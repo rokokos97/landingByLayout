@@ -2,15 +2,31 @@
     html {
         font-size: 10px;
     }
+    .online-section label{
+        font-size: 1.3rem;
+        line-height: 2.1rem;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .online-section input{
+        width: 100%;
+        background: transparent;
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+        color: #FFFFFF;
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+    .online-section input::placeholder{
+        color:#FFFFFF;
+    }
+    .form-container div {
+        width: 100%;
+    }
+
     .content-container {
         max-width: 91%;
     }
     .check{
         color: #FFFFFF;
-    }
-    .question-form input{
-        color: #FFFFFF;
-        background-color: unset;
     }
     .submit-label-text{
         color: #959595;
@@ -280,6 +296,7 @@
         padding-left: 10px;
     }
     .question-form-wrapper form{
+        width: 100%;
         margin-top: -35px;
         margin-bottom: 99px;
     }
@@ -288,7 +305,6 @@
         text-align: left;
         margin-top: -35px;
         padding-left: 8px;
-        border-bottom: #959595 solid 1px;
     }
     .question-form-data{
         margin: 24px auto;
