@@ -4,4 +4,4 @@
 ### Student: Rostyslav Lisovyi
 ### Group: FR-81
 ----
-## visit site here ==> [![SkillFactory](https://static.tildacdn.com/tild3262-3939-4164-b264-626362643536/SF_MRG_-_white.svg)](https://rokokos97.github.io/SkillFactory_homework_landing/)
+## visit site here ==> [![HWSite](https://rokokos97.github.io/SkillFactory_homework_landing/img/svg/cameraOnlineSection.svg)](https://rokokos97.github.io/SkillFactory_homework_landing/)
