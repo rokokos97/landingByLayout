@@ -4,4 +4,4 @@
 
 
 ----
-## visit site here ==> [![HWSite](https://rokokos97.github.io/SkillFactory_homework_landing/img/svg/cameraOnlineSection.svg)](https://rokokos97.github.io/SkillFactory_homework_landing/)
+## visit result here ==> [![HWSite]](https://rokokos97.github.io/SkillFactory_homework_landing/)
