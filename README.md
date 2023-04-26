@@ -1,7 +1,7 @@
-# SkillFactory - Homework Module 2-4
-[![SkillFactory](https://static.tildacdn.com/tild3262-3939-4164-b264-626362643536/SF_MRG_-_white.svg)](https://skillfactory.ru/)
-## Landing site by layout
-### Student: Rostyslav Lisovyi
-### Group: FR-81
+# Landing site by layout
+
+## This project was on "Junior Frontend Developer" course to demonstrate skills HTML5 and CSS.
+
+
 ----
 ## visit site here ==> [![HWSite](https://rokokos97.github.io/SkillFactory_homework_landing/img/svg/cameraOnlineSection.svg)](https://rokokos97.github.io/SkillFactory_homework_landing/)
