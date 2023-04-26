@@ -2,7 +2,7 @@
 
 ## This project was created on "Junior Frontend Developer" course to demonstrate skills HTML5 and CSS.
 
-## layout visit [here](https://www.figma.com/file/TdXgADLSbn7npH24qcjkAg/IC-%22Repair-Design-Project%22?node-id=0-1)
+## visit layout [here](https://www.figma.com/file/TdXgADLSbn7npH24qcjkAg/IC-%22Repair-Design-Project%22?node-id=0-1)
 
 ----
 
